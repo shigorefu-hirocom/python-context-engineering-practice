@@ -1,0 +1,3 @@
+[submodule "02_equipment_rental"]
+	path = 02_equipment_rental
+	url = https://github.com/shigorefu-hirocom/python-equipment-rental-history.git
