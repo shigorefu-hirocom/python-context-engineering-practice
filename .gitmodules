@@ -1,9 +1,9 @@
 [submodule "02_equipment_rental"]
 	path = 02_equipment_rental
-	url = https://github.com/shigorefu-hirocom/python-equipment-rental-history.git
+	url = https://github.com/shigorefu-hirocom/2.git
 [submodule "01_expense_viewer"]
 	path = 01_expense_viewer
-	url = https://github.com/shigorefu-hirocom/python-expense-viewer-practice.git
+	url = https://github.com/shigorefu-hirocom/1.git
 [submodule "03_student_export"]
 	path = 03_student_export
-	url = https://github.com/shigorefu-hirocom/python-student-export-practice.git
+	url = https://github.com/shigorefu-hirocom/3.git

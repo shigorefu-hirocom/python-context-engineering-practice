@@ -4,9 +4,9 @@
 
 | 課題 | 公開リポジトリ | 提出するもの |
 | --- | --- | --- |
-| 1. 初めて見るプログラムのREADME | [01_expense_viewer](https://github.com/shigorefu-hirocom/python-expense-viewer-practice) | 自分で作成したREADME.md |
-| 2. 古いドキュメントの更新 | [02_equipment_rental](https://github.com/shigorefu-hirocom/python-equipment-rental-history) | 更新したREADME.mdとdocs、変更を記録したコミット |
-| 3. エージェントの作業範囲 | [03_student_export](https://github.com/shigorefu-hirocom/python-student-export-practice) | 更新したAGENTS.mdと、出力した100件のJSON |
+| 1. 初めて見るプログラムのREADME | [1](https://github.com/shigorefu-hirocom/1) | 自分で作成したREADME.md |
+| 2. 古いドキュメントの更新 | [2](https://github.com/shigorefu-hirocom/2) | 更新したREADME.mdとdocs、変更を記録したコミット |
+| 3. エージェントの作業範囲 | [3](https://github.com/shigorefu-hirocom/3) | 更新したAGENTS.mdと、出力した100件のJSON |
 
 課題ごとに対象のフォルダーを作業ディレクトリにしてください。文書とコメントは日本語で書きます。AIにコードの読み方やエラーの調べ方を相談できます。説明が正しいかは、自分でコードや実行結果に照らして確かめてください。
 
@@ -21,7 +21,7 @@ cd python-context-engineering-practice
 
 すでに全体をクローンした場合は、クローンしたフォルダーで `git submodule update --init` を実行すると各課題のサブモジュールを取得できます。
 
-課題2の文書をコミットする前に、課題2のフォルダーで `git switch -c documentation-update` を実行し、自分の作業ブランチを作ってください。課題2だけを取得する場合は、[備品貸出のリポジトリ](https://github.com/shigorefu-hirocom/python-equipment-rental-history)をクローンしてください。
+課題2の文書をコミットする前に、課題2のフォルダーで `git switch -c documentation-update` を実行し、自分の作業ブランチを作ってください。課題2だけを取得する場合は、[備品貸出のリポジトリ](https://github.com/shigorefu-hirocom/2)をクローンしてください。
 
 ## 課題1 初めて見るプログラムのREADME
 
