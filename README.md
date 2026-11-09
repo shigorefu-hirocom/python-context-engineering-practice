@@ -2,24 +2,24 @@
 
 三つの小さなPythonプロジェクトを扱います。プログラムの実装と実行結果を確かめ、次に作業する人やエージェントに必要な情報を文書に残します。
 
-| 課題 | フォルダー | 提出するもの |
+| 課題 | 公開リポジトリ | 提出するもの |
 | --- | --- | --- |
-| 1. 初めて見るプログラムのREADME | [01_expense_viewer](01_expense_viewer/) | 自分で作成したREADME.md |
-| 2. 古いドキュメントの更新 | [02_equipment_rental](02_equipment_rental/) | 更新したREADME.mdとdocs、変更を記録したコミット |
-| 3. エージェントの作業範囲 | [03_student_export](03_student_export/) | 更新したAGENTS.mdと、出力した100件のJSON |
+| 1. 初めて見るプログラムのREADME | [01_expense_viewer](https://github.com/shigorefu-hirocom/python-expense-viewer-practice) | 自分で作成したREADME.md |
+| 2. 古いドキュメントの更新 | [02_equipment_rental](https://github.com/shigorefu-hirocom/python-equipment-rental-history) | 更新したREADME.mdとdocs、変更を記録したコミット |
+| 3. エージェントの作業範囲 | [03_student_export](https://github.com/shigorefu-hirocom/python-student-export-practice) | 更新したAGENTS.mdと、出力した100件のJSON |
 
 課題ごとに対象のフォルダーを作業ディレクトリにしてください。文書とコメントは日本語で書きます。AIにコードの読み方やエラーの調べ方を相談できます。説明が正しいかは、自分でコードや実行結果に照らして確かめてください。
 
 ## 配布物の取得
 
-三つのプロジェクトをまとめて取得するには、次のコマンドを実行します。課題2は独自のGit履歴を持つサブモジュールとして取得されます。
+取り組む課題のリポジトリを上の表から開き、個別にクローンできます。課題1と3の条件は各リポジトリのTASK.mdにあります。課題2の条件はこのページの該当する節を読んでください。三つをまとめて取得する場合は、次のコマンドを実行します。
 
 ```bash
 git clone --recurse-submodules https://github.com/shigorefu-hirocom/python-context-engineering-practice.git
 cd python-context-engineering-practice
 ```
 
-すでに全体をクローンした場合は、クローンしたフォルダーで `git submodule update --init` を実行すると課題2を取得できます。
+すでに全体をクローンした場合は、クローンしたフォルダーで `git submodule update --init` を実行すると各課題のサブモジュールを取得できます。
 
 課題2の文書をコミットする前に、課題2のフォルダーで `git switch -c documentation-update` を実行し、自分の作業ブランチを作ってください。課題2だけを取得する場合は、[備品貸出のリポジトリ](https://github.com/shigorefu-hirocom/python-equipment-rental-history)をクローンしてください。
 
